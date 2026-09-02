@@ -25,3 +25,12 @@ class Solution(object):
                     is_prime[multiple] = False
         
         return sum(is_prime)
+#all divider of a number
+def all_divider_num(n):
+    for i in range(1,n+1):
+        if n%i==0:
+            print(i)
+        else:
+            continue
+n=int(input("enter a number:"))
+all_divider_num(n)
