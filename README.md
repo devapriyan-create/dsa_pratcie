@@ -1,4 +1,4 @@
-# dsa_pratcie
+# dsa_pratcie basics
 def count_digits(n):
     n = abs(n)
     count = 0
@@ -55,4 +55,20 @@ def Armstrong(n):
         print('not Armstrong')
 n=int(input())
 Armstrong(n)
-
+#Fibonacci
+def Fibonacci(n):
+    a,b=0,1
+    for i in range(n+1):
+        print(a)
+        a,b=b,a+b
+n=int(input())
+Fibonacci(n)
+#sum of all number
+def sumnum(n):
+    s=str(n)
+    a=0
+    for i in s:
+          a=a+int(i)
+    print(a)
+n=int(input())
+sumnum(n)
