@@ -42,4 +42,17 @@ def factorial(n):
     print(N)
 n=int(input())
 factorial(n)
-#Fibonacci
+#Armstrong
+def Armstrong(n):
+    s=str(n)
+    c=len(s)
+    a=0
+    for i in s:
+        a=a+int(i)**c
+    if n==a:
+        print('Armstrong')
+    else:
+        print('not Armstrong')
+n=int(input())
+Armstrong(n)
+
