@@ -72,3 +72,9 @@ def sumnum(n):
     print(a)
 n=int(input())
 sumnum(n)
+#revers
+def Reverse(n):
+    s=str(n)
+    print(s[::-1])
+n=int(input())
+Reverse(n)
