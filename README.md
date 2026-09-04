@@ -34,3 +34,12 @@ def all_divider_num(n):
             continue
 n=int(input("enter a number:"))
 all_divider_num(n)
+#factorial
+def factorial(n):
+    N=1
+    for i in range(1,n+1):
+        N=N*i
+    print(N)
+n=int(input())
+factorial(n)
+#Fibonacci
